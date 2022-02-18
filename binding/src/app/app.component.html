@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>demo title</title>
+  </head>
+  <body>
+    <h1>DOM selector</h1>
+    <h2 id="learn">Learning DOM</h2>
+    <script>
+      var a = document.documentElement;
+      var b = document.body;
+      var c = document.head;
+      var d = document.title;
+      var e = document.getElementById("learn");
+      e.innerHTML = "Text Changed";
+
+      e.style.color = "blue";
+      console.log(a);
+      console.log(b);
+      console.log(c);
+      console.log(d);
+      console.log(e);
+    </script>
+  </body>
+</html>
